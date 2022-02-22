@@ -23,7 +23,6 @@ is still on your native language, but it is written with another languages lette
   "а": "ა",
   "Б": "ბ",
   "б": "ბ",
-  ...
   "Дз": "ძ",
   "дз": "ძ"
   }
