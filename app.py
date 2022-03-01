@@ -25,8 +25,8 @@ def get_alphabets():
 
 
 def get_file(file_path: str):
-    with open(file_path, 'r', encoding='utf-8') as f:
-        return f.read()
+    with open(file_path, 'r') as f:
+        return f.read().encode('utf-8').decode()
 
 
 def save_file(text: str, converted_file_path: str):
